@@ -13,6 +13,10 @@ class Menu extends Component {
         this.setState({slectedDish:dish})
     }
 
+    checkup(){
+        Console.log("This is a new cheking for learning git braches")
+    }
+
     renderDish(dish){
         if(dish != null){
         return(
